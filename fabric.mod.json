@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "snowdents",
+  "version": "${version}",
+  "name": "Snow Dents",
+  "description": "Mobs and players leave real dents in snow. Vanilla blocks only, works with any shader.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.snowdents.SnowDentsMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
